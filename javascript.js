@@ -83,7 +83,7 @@ function prepare(op) {
         let final_converted = final.toString();
         
         if(final_converted.length > 10) {
-            final_converted = final.toFixed(5);
+            final_converted = final_converted.slice(0,8);
         }
 
         dis.textContent = final_converted;
@@ -132,7 +132,7 @@ function equals() {
         let final_converted = final.toString();
 
         if(final_converted.length > 10) {
-            final_converted = final.toFixed(5);
+            final_converted = final_converted.slice(0,8);
         }
 
         dis.textContent = final_converted;
