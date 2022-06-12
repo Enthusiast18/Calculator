@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Calculator</h1>
+    </div>
+
+    <div class="content">
+
+        <div class="container">
+
+            <div class="display">0</div>
+                
+            <div class="keys">
+                <button class="num one" value="1" onclick="display(this.value)">1</button>
+                <button class="num two" value="2" onclick="display(this.value)">2</button>
+                <button class="num three" value="3" onclick="display(this.value)">3</button>
+                <button class="num four" value="4" onclick="display(this.value)">4</button>
+                <button class="num five" value="5" onclick="display(this.value)">5</button>
+                <button class="num six" value="6" onclick="display(this.value)">6</button>
+                <button class="num seven" value="7" onclick="display(this.value)">7</button>
+                <button class="num eight" value="8" onclick="display(this.value)">8</button>
+                <button class="num nine" value="9" onclick="display(this.value)">9</button>
+                <button class="num zero" value="0" onclick="display(this.value)">0</button>
+                <button class="num decimal" value="." onclick="display(this.value)">.</button>
+
+                <button id="operator" class="num add" value="+" onclick="prepare(this.value)">+</button>
+                <button id="operator" class="num subtract" value="-" onclick="prepare(this.value)">-</button>
+                <button id="operator" class="num divide" value="/" onclick="prepare(this.value)">&divide</button>
+                <button id="operator" class="num multiply" value="*" onclick="prepare(this.value)">&times</button>
+                <button id="s-operator" class="num equals" value="=" onclick="equals()">=</button>
+                <button id="operator" class="num backspace" value="AC" onclick="backspace()">AC</button>
+                <button id="operator" class="num clear" value="C" onclick="clear_display()">C</button>
+            
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="footer">@Enthusiast18</div>
+    
+</body>
+</html>

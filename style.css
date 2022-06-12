@@ -1,0 +1,199 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 25px 0 25px;
+    font-size: 25px;
+}
+
+.content {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #d1d1d1;
+}
+
+.display {
+    border: none;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 5rem;
+    padding-right: 20px;
+    padding-left: 10px;
+    text-align: right;
+    color: white;
+    width: 450px;
+    height: 100px;
+}
+
+.keys {
+    display: grid;
+    text-align: center;
+    padding: 5px;
+    
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.num {
+    border: 2px solid #f5f5f5;
+    border-radius: 7px;
+    padding: 15px 15px 15px;
+    margin: 0;
+    /* height: 100px;
+    width:100px; */
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#operator {
+    background-color: #262626;
+    color: blue;
+}
+
+#operator:hover {
+    background-color: #333333;
+}
+
+#s-operator {
+    background-color: blue;
+    color: white;
+}
+
+#s-operator:hover {
+    background-color: #007fff;
+}
+
+button {
+    transition: 0.1s;
+}
+
+button:hover {
+    background-color: #1a1a1a;
+}
+
+button:active {
+    transform: scale(0.93);
+}
+
+.equals {
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: blue;
+    color: white;
+}
+
+.one {
+    grid-row-start: 4;
+}
+
+.two {
+    grid-row-start: 4;
+    grid-column-start: 2;
+}
+
+.three {
+    grid-row-start: 4;
+    grid-column-start: 3;
+}
+
+.four {
+    grid-row-start: 3;
+}
+
+.five {
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+
+.six {
+    grid-row-start: 3;
+    grid-column-start: 3;
+}
+
+.seven {
+    grid-row-start: 2;
+}
+
+.eight {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.nine {
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+
+.zero {
+    grid-row-start: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.decimal {
+    grid-row-start: 5;
+    grid-column-start: 3;
+}
+
+.multiply {
+    grid-row-start: 1;
+    grid-column-start: 3;
+}
+
+.divide {
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+
+.add {
+    grid-row-start: 3;
+    grid-column-start: 4;
+}
+
+.subtract {
+    grid-row-start: 2;
+    grid-column-start: 4;
+}
+
+.clear {
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+/* button:hover {
+    background-color: #f5f5f5;
+} */
+
+.footer {
+    background-color: #1F2937;
+    padding: 40px 0 40px;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
